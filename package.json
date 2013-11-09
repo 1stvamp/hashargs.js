@@ -1,7 +1,7 @@
 {
   "name": "hashargs",
   "version": "0.1.0",
-  "description": "A decorator utility to allow any function to be calls with a hash of named arguments.",
+  "description": "A decorator utility that allows any function to be called with a hash of named arguments.",
   "main": "lib/hashargs.js",
   "dependencies": {
     "introspect": "~0.0.2"
