@@ -30,4 +30,12 @@ Usage
 
 > t({bar: 'hello world', blah: 1234})
 { '0': undefined, '1': 'hello world', '2': undefined, '3': 1234 }
+
+> t = t.__orig_func;
+
+> t({bar: 'hello world'})
+{ '0': { bar: 'hello world' },
+'1': undefined,
+'2': undefined,
+'3': undefined }
 ```
