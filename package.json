@@ -1,0 +1,31 @@
+{
+  "name": "hashargs",
+  "version": "0.1.0",
+  "description": "A decorator utility to allow any function to be calls with a hash of named arguments.",
+  "main": "lib/hashargs.js",
+  "dependencies": {
+    "introspect": "~0.0.2"
+  },
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/1stvamp/hashargs.js.git"
+  },
+  "keywords": [
+    "decorator",
+    "hash",
+    "arguments",
+    "function"
+  ],
+   "author": {
+       "name": "Wes Mason",
+       "email": "wes@1stvamp.org",
+       "web": "http://www.1stvamp.org/"
+   }, 
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/1stvamp/hashargs.js/issues"
+  }
+}
