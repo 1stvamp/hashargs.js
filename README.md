@@ -1,7 +1,7 @@
 hashargs.js
 ===========
 
-`hashargs` is a simple decorator utility that allows any Node.js function to be called with a hash of named arguments.
+`hashargs` is a simple decorator utility that allows any JavaScript function to be called with a hash of named arguments.
 Any argument that isn't named in the hash is still passed through as `undefined` as if it was set positionally.
 
 Installation
